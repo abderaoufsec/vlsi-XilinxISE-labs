@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/ALU/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/ALU/xst"
+elaborate
+-ifn alu_4bit.prj
+-ifmt mixed

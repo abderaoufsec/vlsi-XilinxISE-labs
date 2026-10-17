@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/ALU/alu_4bit.vhd 2026/10/17.00:33:12 P.20131013
+EN work/alu_4bit 1792197197 FL /home/ise/ALU/alu_4bit.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/alu_4bit/Behavioral 1792197198 \
+      FL /home/ise/ALU/alu_4bit.vhd EN work/alu_4bit 1792197197

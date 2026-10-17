@@ -1,0 +1,28 @@
+Command line:
+   counter_4bit_structural_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59619
+
+Sat Oct 17 01:10:51 2026
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 198.607 Meg
+
+ Total Signals          : 16
+ Total Nets             : 13
+ Total Signal Drivers   : 9
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 9
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 373
+
+ Total Simulation Time: 0.16 sec
+
+ Current Memory Usage: 276.206 Meg
+
+Sat Oct 17 01:14:44 2026
+

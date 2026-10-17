@@ -1,0 +1,2 @@
+vhdl work "alu_4bit.vhd"
+vhdl work "alu_4bit_tb.vhd"

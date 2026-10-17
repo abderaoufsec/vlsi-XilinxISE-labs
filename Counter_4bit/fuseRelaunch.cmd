@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Counter_4bit/counter_tb_isim_beh.exe" -prj "/home/ise/Counter_4bit/counter_tb_beh.prj" "work.counter_tb" 

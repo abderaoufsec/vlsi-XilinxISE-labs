@@ -1,0 +1,6 @@
+AR counter_4bit_structural structural /home/ise/Counter_4bit/counter_4bit_structural.vhd sub00/vhpl05 1792199166
+EN dff NULL /home/ise/Counter_4bit/dff.vhd sub00/vhpl02 1792199163
+EN counter_4bit NULL /home/ise/Counter_4bit/counter_4bit.vhd sub00/vhpl00 1792198492
+EN counter_4bit_structural NULL /home/ise/Counter_4bit/counter_4bit_structural.vhd sub00/vhpl04 1792199165
+AR counter_4bit behavioral /home/ise/Counter_4bit/counter_4bit.vhd sub00/vhpl01 1792198493
+AR dff behavioral /home/ise/Counter_4bit/dff.vhd sub00/vhpl03 1792199164

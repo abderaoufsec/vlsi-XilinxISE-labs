@@ -1,0 +1,2 @@
+vhdl work "easy_switch.vhd"
+vhdl work "easy_switch_tb.vhd"

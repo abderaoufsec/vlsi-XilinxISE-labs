@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "/home/ise/QSwitch_Router/easy_switch.xst" -ofn "/home/ise/QSwitch_Router/easy_switch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 easy_switch.ngc easy_switch.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o easy_switch_map.ncd easy_switch.ngd easy_switch.pcf 

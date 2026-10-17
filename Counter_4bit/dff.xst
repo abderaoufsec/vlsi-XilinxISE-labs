@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Counter_4bit/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Counter_4bit/xst"
+elaborate
+-ifn dff.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/QSwitch_Router/easy_switch_tb_isim_beh.exe" -prj "/home/ise/QSwitch_Router/easy_switch_tb_beh.prj" "work.easy_switch_tb" 

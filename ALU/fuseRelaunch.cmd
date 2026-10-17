@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/ALU/alu_4bit_tb_isim_beh.exe" -prj "/home/ise/ALU/alu_4bit_tb_beh.prj" "work.alu_4bit_tb" 

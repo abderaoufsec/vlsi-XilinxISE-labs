@@ -1,0 +1,17 @@
+V3 10
+FL /home/ise/Counter_4bit/counter_4bit.vhd 2026/10/17.00:54:50 P.20131013
+EN work/counter_4bit 1792198492 FL /home/ise/Counter_4bit/counter_4bit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/counter_4bit/Behavioral 1792198493 \
+      FL /home/ise/Counter_4bit/counter_4bit.vhd EN work/counter_4bit 1792198492
+FL /home/ise/Counter_4bit/counter_4bit_structural.vhd 2026/10/17.01:02:44 P.20131013
+EN work/counter_4bit_structural 1792199165 \
+      FL /home/ise/Counter_4bit/counter_4bit_structural.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/counter_4bit_structural/Structural 1792199166 \
+      FL /home/ise/Counter_4bit/counter_4bit_structural.vhd \
+      EN work/counter_4bit_structural 1792199165 CP dff
+FL /home/ise/Counter_4bit/dff.vhd 2026/10/17.00:59:13 P.20131013
+EN work/dff 1792199163 FL /home/ise/Counter_4bit/dff.vhd PB ieee/std_logic_1164 1381692176
+AR work/dff/Behavioral 1792199164 \
+      FL /home/ise/Counter_4bit/dff.vhd EN work/dff 1792199163
