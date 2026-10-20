@@ -6,5 +6,17 @@ Determining compilation order of HDL files
 Parsing VHDL file "/home/ise/QSwitch_Router/easy_switch.vhd" into library work
 Parsing VHDL file "/home/ise/QSwitch_Router/easy_switch_tb.vhd" into library work
 Starting static elaboration
-ERROR:HDLCompiler:410 - "/home/ise/QSwitch_Router/easy_switch_tb.vhd" Line 110: Expression has 24 elements ; expected 20
-ERROR:Simulator:777 - Static elaboration of top level VHDL design unit easy_switch_tb in library work failed
+Completed static elaboration
+Fuse Memory Usage: 96824 KB
+Fuse CPU Usage: 920 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity easy_switch [\easy_switch(20,2,2)\]
+Compiling architecture behavior of entity easy_switch_tb
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable /home/ise/QSwitch_Router/easy_switch_tb_isim_beh.exe
+Fuse Memory Usage: 111684 KB
+Fuse CPU Usage: 960 ms
+GCC CPU Usage: 1080 ms

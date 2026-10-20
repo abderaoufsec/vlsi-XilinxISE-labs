@@ -38,7 +38,7 @@ ARCHITECTURE behavior OF easy_switch_tb IS
          data_rqst_south_out : OUT  std_logic
         );
     END COMPONENT;
-	 
+    
    --Inputs
    signal clk : std_logic := '0';
    signal reset : std_logic := '1';
@@ -106,12 +106,12 @@ BEGIN
       reset <= '0'; wait for 20 ns;
 
       -- Packet 1: From West, Destination X=3, Y=2 (Needs to go East)
-      -- Format: [X_dest(2 bits) & Y_dest(2 bits) & Data...]
-      data_bus_west_in <= "11" & "10" & x"12345"; 
+      -- Format: [X_dest(2 bits) & Y_dest(2 bits) & Data(16 bits)] = 20 bits total
+      data_bus_west_in <= "11" & "10" & x"1234"; 
       data_rqst_west_in <= '1';
       
       -- Packet 2: From North, Destination X=3, Y=2 (Needs to go East)
-      data_bus_north_in <= "11" & "10" & x"ABCDE";
+      data_bus_north_in <= "11" & "10" & x"ABCD";
       data_rqst_north_in <= '1';
       
       -- Wait for a few clock cycles to see arbitration
@@ -124,4 +124,4 @@ BEGIN
       wait;
    end process;
 
-END;
+END ARCHITECTURE behavior;

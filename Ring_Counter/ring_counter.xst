@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Ring_Counter/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Ring_Counter/xst"
+elaborate
+-ifn ring_counter.prj
+-ifmt mixed

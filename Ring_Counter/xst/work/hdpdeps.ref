@@ -1,0 +1,6 @@
+V3 3
+FL /home/ise/Ring_Counter/ring_counter.vhd 2026/10/20.08:47:51 P.20131013
+EN work/ring_counter 1792486087 FL /home/ise/Ring_Counter/ring_counter.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ring_counter/Behavioral 1792486088 \
+      FL /home/ise/Ring_Counter/ring_counter.vhd EN work/ring_counter 1792486087

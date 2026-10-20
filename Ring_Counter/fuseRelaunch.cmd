@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Ring_Counter/ring_counter_tb_isim_beh.exe" -prj "/home/ise/Ring_Counter/ring_counter_tb_beh.prj" "work.ring_counter_tb" 

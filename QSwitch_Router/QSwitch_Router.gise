@@ -47,50 +47,71 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="easy_switch_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="easy_switch_summary.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="easy_switch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="easy_switch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="easy_switch_tb_isim_beh.wdb"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="easy_switch_tb_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="easy_switch_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="easy_switch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
-    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1792200678" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1792200678">
-      <status xil_pn:value="SuccessfullyRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1792201144" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792201144">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="easy_switch.vhd"/>
-      <outfile xil_pn:name="easy_switch_tb.vhd"/>
-    </transform>
-    <transform xil_pn:end_ts="1792201148" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2791767559097086766" xil_pn:start_ts="1792201148">
+    <transform xil_pn:end_ts="1792484150" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1792484150">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792201148" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-308301556199374672" xil_pn:start_ts="1792201148">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1792200678" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2502431259846876993" xil_pn:start_ts="1792200678">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1792201148" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792201148">
+    <transform xil_pn:end_ts="1792485390" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792485390">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="easy_switch.vhd"/>
       <outfile xil_pn:name="easy_switch_tb.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1792201150" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5188872318790357374" xil_pn:start_ts="1792201148">
-      <status xil_pn:value="FailedRun"/>
+    <transform xil_pn:end_ts="1792484150" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2791767559097086766" xil_pn:start_ts="1792484150">
+      <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792484150" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-308301556199374672" xil_pn:start_ts="1792484150">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792484150" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="2502431259846876993" xil_pn:start_ts="1792484150">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792485394" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1792485394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="easy_switch.vhd"/>
+      <outfile xil_pn:name="easy_switch_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1792485396" xil_pn:in_ck="-2341277118806769733" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5188872318790357374" xil_pn:start_ts="1792485394">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="easy_switch_tb_beh.prj"/>
+      <outfile xil_pn:name="easy_switch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1792485397" xil_pn:in_ck="7900632811271534567" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1011428896788159477" xil_pn:start_ts="1792485396">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="easy_switch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
     </transform>
     <transform xil_pn:end_ts="1792201185" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1792201185">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
     </transform>
     <transform xil_pn:end_ts="1792201185" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2713084904751278552" xil_pn:start_ts="1792201185">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -120,6 +141,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="easy_switch.lso"/>
@@ -142,6 +168,7 @@
     <transform xil_pn:end_ts="1792201194" xil_pn:in_ck="-404939202556123959" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-746992847770492498" xil_pn:start_ts="1792201190">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
       <outfile xil_pn:name="easy_switch.bld"/>
@@ -152,6 +179,7 @@
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
       <outfile xil_pn:name="easy_switch.pcf"/>
       <outfile xil_pn:name="easy_switch_map.map"/>
