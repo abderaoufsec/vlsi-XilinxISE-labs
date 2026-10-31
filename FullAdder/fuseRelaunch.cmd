@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "/home/ise/FullAdder/full_adder_full_adder_sch_tb_isim_beh.exe" -prj "/home/ise/FullAdder/full_adder_full_adder_sch_tb_beh.prj" "work.full_adder_full_adder_sch_tb" 
+-intstyle "ise" -incremental -o "/home/ise/FullAdder/adder_2bit_adder_2bit_sch_tb_isim_beh.exe" -prj "/home/ise/FullAdder/adder_2bit_adder_2bit_sch_tb_beh.prj" "work.adder_2bit_adder_2bit_sch_tb" 

@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl adder_2bit_drc.vhf -w /home/ise/FullAdder/adder_2bit.sch 
+sch2sym -intstyle ise -family spartan3e -refsym adder_2bit /home/ise/FullAdder/adder_2bit.sch /home/ise/FullAdder/adder_2bit.sym 

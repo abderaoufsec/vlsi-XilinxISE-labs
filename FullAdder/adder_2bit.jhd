@@ -1,0 +1,5 @@
+MODULE adder_2bit
+	SUBMODULE full_adder
+		INSTANCE XLXI_1
+	SUBMODULE full_adder
+		INSTANCE XLXI_2
