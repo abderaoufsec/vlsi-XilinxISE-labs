@@ -2,27 +2,27 @@ Command line:
    easy_switch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  58365
+     -socket  45030
 
-Tue Oct 20 08:36:38 2026
+Sun Nov 22 18:18:23 2026
 
 
- Elaboration Time: 0.02 sec
+ Elaboration Time: 0.04 sec
 
- Current Memory Usage: 198.861 Meg
+ Current Memory Usage: 199.27 Meg
 
- Total Signals          : 60
- Total Nets             : 266
- Total Signal Drivers   : 26
+ Total Signals          : 64
+ Total Nets             : 762
+ Total Signal Drivers   : 34
  Total Blocks           : 4
  Total Primitive Blocks : 3
- Total Processes        : 8
- Total Traceable Variables  : 17
- Total Scalar Nets and Variables : 753
+ Total Processes        : 7
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 1250
 
- Total Simulation Time: 0.41 sec
+ Total Simulation Time: 0.11 sec
 
- Current Memory Usage: 276.46 Meg
+ Current Memory Usage: 276.869 Meg
 
-Tue Oct 20 08:41:32 2026
+Sun Nov 22 18:20:15 2026
 

@@ -13,4 +13,5 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+at 205 ns: Note: Testbench completed. (/easy_switch_tb/).
 # exit 0

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/ise/Ring_Counter/ring_counter.xst" -ofn "/home/ise/Ring_Counter/ring_counter.syr" 
+xst -intstyle ise -ifn "/home/ise/Ring_Counter/ring_counter.xst" -ofn "/home/ise/Ring_Counter/ring_counter.syr" 
